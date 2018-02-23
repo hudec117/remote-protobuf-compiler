@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteProtobufCompilerClient", "RemoteProtobufCompilerClient\RemoteProtobufCompilerClient.csproj", "{1A7B9746-5702-427B-87FA-8FC09E05A9CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteProtobufCompilerServer", "RemoteProtobufCompilerServer\RemoteProtobufCompilerServer.csproj", "{DB28E98D-88C1-4036-9366-03C517BB00EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteProtobufCompilerServer", "RemoteProtobufCompilerServer\RemoteProtobufCompilerServer.csproj", "{DD278D48-0042-4172-8E7C-EADBB0B9C324}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1A7B9746-5702-427B-87FA-8FC09E05A9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A7B9746-5702-427B-87FA-8FC09E05A9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A7B9746-5702-427B-87FA-8FC09E05A9CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB28E98D-88C1-4036-9366-03C517BB00EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB28E98D-88C1-4036-9366-03C517BB00EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB28E98D-88C1-4036-9366-03C517BB00EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB28E98D-88C1-4036-9366-03C517BB00EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD278D48-0042-4172-8E7C-EADBB0B9C324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD278D48-0042-4172-8E7C-EADBB0B9C324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD278D48-0042-4172-8E7C-EADBB0B9C324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD278D48-0042-4172-8E7C-EADBB0B9C324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

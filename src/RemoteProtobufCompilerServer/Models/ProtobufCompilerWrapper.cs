@@ -10,9 +10,6 @@ namespace RemoteProtobufCompilingServer.Models
 
 		public string InputPath { get; set; }
 
-		// Change this if protoc is elsewhere
-		private const string protocPath = "/usr/local/bin/protoc";
-
 		public ProtobufCompilerWrapper(string outputPath, string inputPath)
 		{
 			OutputPath = outputPath;
@@ -50,7 +47,7 @@ namespace RemoteProtobufCompilingServer.Models
 		private string GenerateProtocCommand(ProtobufCompilerWrapperOptions options)
 		{
 			// Not ideal
-			return $"cd {InputPath} && {protocPath} --{options.OutputType}_out={OutputPath} * && cd {OutputPath} && find . -type f -print0 | xargs -0 todos";
+			return $"cd {InputPath} && protoc --{options.OutputType}_out={OutputPath} * && cd {OutputPath} && find . -type f -print0 | xargs -0 todos";
 		}
 	}
 }
