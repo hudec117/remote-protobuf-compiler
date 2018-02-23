@@ -1,6 +1,6 @@
 # Remote Protobuf Compiler
 
-A server/client duo allowing you to compile your local [Protocol Buffer](https://developers.google.com/protocol-buffers/m) files on a remote host (e.g. Raspberry Pi, virtual server, etc)
+A server/client duo allowing you to compile your local [Protocol Buffer](https://developers.google.com/protocol-buffers) files on a remote host (e.g. Raspberry Pi, virtual server, etc)
 
 **NOTE:** Neither the server or client were built with extensibility, maintainability or readability in mind. This is merely a tool to aid the development of another one of my projects.
 
@@ -8,7 +8,7 @@ If you encounter any bugs or would like to see a feature added then please open 
 
 ## Download
 
-To download the server or client see [here](releases).
+To download the server or client see [here](https://github.com/hudec117/remote-protobuf-compiler/releases).
 
 ## Client
 
