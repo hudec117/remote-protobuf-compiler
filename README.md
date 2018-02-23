@@ -4,7 +4,7 @@ A server/client duo allowing you to compile your local [Protocol Buffer](https:/
 
 **NOTE:** Neither the server or client were built with extensibility, maintainability or readability in mind. This is merely a tool to aid the development of another one of my projects.
 
-If you encounter any bugs or would like to see a feature added then please open n issue.
+If you encounter any bugs or would like to see a feature added then please open an issue.
 
 ## Download
 
