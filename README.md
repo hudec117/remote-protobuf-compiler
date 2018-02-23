@@ -49,7 +49,9 @@ To launch the server:
 1. Navigate to your install
 2. Execute: `./RemoteProtobufCompilerServer --urls http://HOST:PORT &`
    
-   Note: If you execute this via SSH, when you go to logout it will stop.
+   Adjust `HOST` and `PORT` to your configuration.
+   
+   Note: If you execute this via SSH, when you logout it will stop.
 
 I have found that the simplest (not the best) way to launch the server on boot is:
 
@@ -57,7 +59,7 @@ I have found that the simplest (not the best) way to launch the server on boot i
 
    `/INSTALL_PATH/RemoteProtobufCompilerServer/RemoteProtobufCompilerServer --urls http://HOST:PORT &`
 
-2. Adjust `INSTALL_PATH`, `HOST` and `PORT` to your configuration.
+   Adjust `INSTALL_PATH`, `HOST` and `PORT` to your configuration.
 
 ### Development
 
@@ -67,4 +69,3 @@ The server was developed in a Linux environment using Visual Studio code and is 
 
 * [Newtonsoft.Json](https://www.newtonsoft.com/json) - On the client to serialise and deserialise locally saved settings.
 * [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/) - On the server to create a web API.
-
